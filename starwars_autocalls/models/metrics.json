@@ -1,0 +1,39 @@
+{
+  "ridge_baseline": {
+    "mae_months": 10.325460057603472,
+    "rmse_months": 13.708102483956488
+  },
+  "lightgbm": {
+    "mae_months": 4.7446219200806645,
+    "rmse_months": 6.4189753879424085
+  },
+  "naive_mean_baseline_mae_months": 18.135420246677565,
+  "n_train": 11318,
+  "n_test": 2478,
+  "train_date_range": [
+    "2016-01-04",
+    "2022-12-13"
+  ],
+  "test_date_range": [
+    "2022-12-14",
+    "2024-06-28"
+  ],
+  "feature_importance": {
+    "nominal_months": 533,
+    "basket_max_realized_vol": 512,
+    "basket_max_structural_vol": 462,
+    "autocall_barrier_pct": 436,
+    "quoted_implied_vol": 283,
+    "protection_barrier_pct": 229,
+    "obs_freq_months": 221,
+    "no_call_period_months": 116,
+    "n_underlyings": 89,
+    "product_type_Wretched_Hive_Digital": 57,
+    "notional_credits": 37,
+    "product_type_Kessel_Run_Snowball": 14,
+    "product_type_Holocron_Reverse_Convertible": 10,
+    "product_type_Mandalorian_Twin-Win": 1,
+    "product_type_Sith_Eternal_Snowball": 0,
+    "basket_type_worst_of": 0
+  }
+}
